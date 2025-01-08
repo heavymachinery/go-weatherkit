@@ -54,6 +54,7 @@ func (o WeatherRequest) url() string {
 
 	if o.CountryCode != "" {
 		q.Add("countryCode", o.CountryCode)
+		q.Add("country", o.CountryCode)
 	}
 	if o.CurrentAsOf != nil {
 		q.Add("currentAsOf", o.CurrentAsOf.Format(dateTimeFormat))
