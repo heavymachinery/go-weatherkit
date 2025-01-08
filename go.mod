@@ -1,4 +1,4 @@
-module github.com/shawntoffel/go-weatherkit
+module github.com/heavymachinery/go-weatherkit
 
 go 1.18
 
